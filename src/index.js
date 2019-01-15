@@ -41,6 +41,9 @@ function plugin (Vue, options) {
             case 'add':
                 vm.Add(message)
                 break
+            case 'clear':
+                vm.Clear()
+                break
         }
     }
 }
